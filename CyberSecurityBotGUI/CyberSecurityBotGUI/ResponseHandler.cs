@@ -101,7 +101,7 @@ namespace CyberSecurityBotGUI
             BotReply replyMethod = GenerateReply;
             return replyMethod(input, name);
         }
-
+         // Conversation with Chat
         private static string GenerateReply(string input, string name)
         {
             string sentimentMessage = DetectSentiment(input, name);
@@ -113,7 +113,7 @@ namespace CyberSecurityBotGUI
 
             if (input.Contains("how are you ") || input.Contains("how are you doing") || input.Contains("are you okay"))
             {
-                return $"i am a chatbot i cannot feel any emotion but thank you for asking {name} ";
+                return $"i am a chatbot i cannot feel any emotion but thank you for asking {name}. What would you like to know about Cybersecurity today? ";
             }
 
             if (input.Contains("thank you") || input.Contains("thanks"))
