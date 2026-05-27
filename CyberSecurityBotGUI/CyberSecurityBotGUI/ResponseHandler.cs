@@ -128,7 +128,7 @@ namespace CyberSecurityBotGUI
 
             if (input.Contains("purpose"))
             {
-                return $"My purpose is to help you understand and learn about Cybersecurity";
+                return $"My purpose is to help you understand and learn about Cybersecurity. What would like to learn about cybersecurity today?";
             }
 
             if (input.Contains("i'm interested in") || input.Contains("i am interested in"))
