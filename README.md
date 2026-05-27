@@ -38,4 +38,4 @@ The chatbot helps users learn about:
 - ascii_art.txt
 
 ## Author
-Dieume Mboni
+Rusumbanya Mboni
