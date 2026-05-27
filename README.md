@@ -1,4 +1,4 @@
-# Cybersecurity Awareness Bot
+# ChatBot GUI POE Part 2
 
 ## Description
 This is a C# Windows Forms chatbot application developed for cybersecurity awareness and education.
